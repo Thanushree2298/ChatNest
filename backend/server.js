@@ -7,7 +7,7 @@ import authRoutes from "./routes/auth.routes.js";
 import messagesRoutes from "./routes/messages.routes.js";
 import userRoutes from "./routes/user.routes.js";
 
-import connectToMongoDB from "./db/connectToMongoDB.js";
+import connectToMongoDB from "./db/ConnectToMongoDB.js";
 import { app, server } from "./socket/socket.js";
 
 const PORT = process.env.PORT || 4000;
